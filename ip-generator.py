@@ -2,7 +2,7 @@
 # user gives first IP and Num of SIMs to calculate
 import datetime
 # create a file with a unique datetime
-filename = 'ipMan_{}.txt'.format(datetime.datetime.now().strftime("%m-%d-%Y_%H%M%S"))
+filename = 'ipFile_{}.txt'.format(datetime.datetime.now().strftime("%m-%d-%Y_%H%M%S"))
 f = open(filename, 'w')
 
 
