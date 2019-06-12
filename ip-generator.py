@@ -42,6 +42,7 @@ def ipGenerator(ip, sNum):
     f.write(formatIP(quad1, quad2, quad3, quad4) + "\n")
     # let's print a succession of IPs by incrementing until reached sim Number
     while (counter < sNum - 1):
+        print(formatIP(quad1, quad2, quad3, quad4))
         quad4 += 1
         counter += 1
         if (quad4 <= maxIP):
