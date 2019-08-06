@@ -16,10 +16,11 @@ See alternate script that outputs address without leading zeros.
 
 Here is a code sample showing how the 4 octets come together:
 
-`method will take above inputs as the 2 args and split each quad into an array
+```method will take above inputs as the 2 args and split each quad into an array
 def ipGenerator(ip, sNum):
     ipArray = ip.split(".")
     quad1 = int(ipArray[0])
     quad2 = int(ipArray[1])
     quad3 = int(ipArray[2])
-    quad4 = int(ipArray[3])`
+    quad4 = int(ipArray[3])
+ ```
